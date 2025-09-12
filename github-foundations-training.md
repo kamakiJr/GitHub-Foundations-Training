@@ -7,13 +7,77 @@ Links are verified and updated as needed.
 - [GitHub Foundations Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)
 
 ### Exam Content
-- Domain 1: Introduction to Git and GitHub 22%
-- Domain 2: Working with GitHub Repositories 8%
-- Domain 3: Collaboration Features 30%
-- Domain 4: Modern Development 13%
-- Domain 5: Project Management 7%
-- Domain 6: Privacy, Security, and Administration 10%
-- Domain 7: Benefits of the GitHub Community 10%
+
+**Domain 1: Introduction to Git and GitHub (22%)**
+- Understand the basics of Git
+  - Explain what Git is and why it is used
+  - Describe the basic Git workflow
+  - Understand the concept of repositories
+  - Explain the difference between local and remote repositories
+- Work with Git commands
+  - Initialize a Git repository
+  - Clone a repository
+  - Add and commit changes
+  - Push and pull changes
+  - Understand branching and merging
+- Navigate GitHub
+  - Create a GitHub account
+  - Create and manage repositories on GitHub
+  - Understand the GitHub interface
+  - Use GitHub issues and pull requests
+
+**Domain 2: Working with GitHub Repositories (8%)**
+- Manage repository settings
+  - Configure repository settings
+  - Set up repository permissions
+  - Use repository templates
+- Work with files in a repository
+  - Add, edit, and delete files
+  - Understand file versioning
+  - Use GitHub Desktop for file management
+
+**Domain 3: Collaboration Features (30%)**
+- Collaborate using GitHub
+  - Fork repositories
+  - Create and manage pull requests
+  - Review and merge pull requests
+  - Use GitHub Actions for CI/CD
+- Use GitHub for project management
+  - Create and manage issues
+  - Use labels, milestones, and projects
+  - Track progress with GitHub Projects
+
+**Domain 4: Modern Development (13%)**
+- Implement DevOps practices
+  - Understand the principles of DevOps
+  - Use GitHub Actions for automation
+  - Implement CI/CD pipelines
+- Use GitHub for code review
+  - Conduct code reviews
+  - Use GitHub's code review tools
+  - Understand best practices for code reviews
+
+**Domain 5: Project Management (7%)**
+- Manage projects with GitHub
+  - Create and manage GitHub Projects
+  - Use project boards for task management
+  - Integrate GitHub Projects with issues and pull requests
+
+**Domain 6: Privacy, Security, and Administration (10%)**
+- Ensure repository security
+  - Set up branch protection rules
+  - Use security features like Dependabot
+  - Manage repository access and permissions
+- Administer GitHub organizations
+  - Create and manage organizations
+  - Set up organization-level security
+  - Manage teams and members
+
+**Domain 7: Benefits of the GitHub Community (10%)**
+- Engage with the GitHub community
+  - Participate in open source projects
+  - Use GitHub Discussions
+  - Contribute to community projects
 
 ## Main Training Path
 - [GitHub Foundations Training - Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/github-foundations/)
@@ -31,6 +95,7 @@ Links are verified and updated as needed.
 
 [GitHub platform management](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/5-platform-management)
 
+[The Codespace Lifecycle](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/2-codespace-lifecycle)
 ### Domain 2: Working with GitHub Repositories
 *Add study resources for repository management here.*
 
@@ -41,13 +106,26 @@ Links are verified and updated as needed.
 *Add study resources for modern development practices here.*
 
 ### Domain 5: Project Management
+[Projects versus Projects Classic](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/2-project-vs-project-classic)
+
+[How to create a project](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/3-how-to-create-project)
+
+[How to organize and automate your project](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/5-how-to-organize-automate-project)
+
+[Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
+
 *Add study resources for project management features here.*
 
 ### Domain 6: Privacy, Security, and Administration
-*Add study resources for security and admin topics here.*
+[What is Code Scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning)
+
+[Enable code scanning with third party tools](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/3-enable-code-scanning-with-third-party-tools)
+[Configure code scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/4-configure-code-scanning)
 
 ### Domain 7: Benefits of the GitHub Community
 *Add study resources for community features and benefits here.*
 
 ## Additional Resources
 *Add more links here as you discover useful resources.*
+[GH Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
+[Practice Exams](https://ghcertified.com/practice_tests/foundations/?questions=145)
