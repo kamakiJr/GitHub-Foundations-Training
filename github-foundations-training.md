@@ -114,7 +114,6 @@ Links are verified and updated as needed.
 
 [Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
 
-*Add study resources for project management features here.*
 
 ### Domain 6: Privacy, Security, and Administration
 [What is Code Scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning)
@@ -128,4 +127,5 @@ Links are verified and updated as needed.
 ## Additional Resources
 *Add more links here as you discover useful resources.*
 [GH Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
+[GH Study Guide GH-Foundations](https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md)
 [Practice Exams](https://ghcertified.com/practice_tests/foundations/?questions=145)
