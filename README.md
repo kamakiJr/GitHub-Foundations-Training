@@ -1,5 +1,7 @@
 # GitHub Foundations Training
 
+🚧 **Work in Progress** 🚧
+
 A comprehensive study guide and training plan for the GitHub Foundations certification exam.
 
 ## Overview
