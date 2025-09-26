@@ -1,6 +1,6 @@
 # GitHub Foundations Training Plan
 
-This document contains a curated set of links for studying GitHub Foundations. 
+This document contains a curated set of links for studying GitHub Foundations.
 Links are verified and updated as needed.
 
 ## Requirements
@@ -96,14 +96,29 @@ Links are verified and updated as needed.
 [GitHub platform management](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/5-platform-management)
 
 [The Codespace Lifecycle](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/2-codespace-lifecycle)
+
+[What is Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown)
+
+[Communicate with Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/3-communicating-using-markdown)
+
 ### Domain 2: Working with GitHub Repositories
 *Add study resources for repository management here.*
 
 ### Domain 3: Collaboration Features
-*Add study resources for collaboration tools and features here.*
+[Contribute to an open-source Project](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
+
+[Identify Where You Can Help](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/2-identify)
+
+[Contribute to an open-source repository](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute)
+
+[Exercise - Create your first pull request](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr)
+
+[Next steps](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/5-next-steps)
+
+***- Needs Project Management Tasks Here***
 
 ### Domain 4: Modern Development
-*Add study resources for modern development practices here.*
+[Understanding GitHub Actions](https://docs.github.com/en/actions/get-started/understand-github-actions)
 
 ### Domain 5: Project Management
 [Projects versus Projects Classic](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/2-project-vs-project-classic)
@@ -114,12 +129,24 @@ Links are verified and updated as needed.
 
 [Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
 
-
 ### Domain 6: Privacy, Security, and Administration
 [What is Code Scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning)
 
 [Enable code scanning with third party tools](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/3-enable-code-scanning-with-third-party-tools)
+
 [Configure code scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/4-configure-code-scanning)
+
+[How to maintain a secure GitHub repository](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/2-how-to-maintain-secure-repository)
+
+[Automated security](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/3-security-automation)
+
+[What is GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration)
+
+[How does GitHub authentication work?](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works)
+
+[How does GitHub organization and permissions work?](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/4-how-github-organization-permission-works)
+
+[Managing enterprise access, permissions, and governance](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/5-enterprise-access-governance)
 
 ### Domain 7: Benefits of the GitHub Community
 *Add study resources for community features and benefits here.*
@@ -127,5 +154,9 @@ Links are verified and updated as needed.
 ## Additional Resources
 *Add more links here as you discover useful resources.*
 [GH Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
+
 [GH Study Guide GH-Foundations](https://github.com/LadyKerr/github-certification-guide/blob/main/study-guides/gh-foundations.md)
+
 [Practice Exams](https://ghcertified.com/practice_tests/foundations/?questions=145)
+
+[GitHub Foundations](https://github.com/btkrausen/github_certification/tree/main/GitHub_Foundations)
