@@ -1,0 +1,154 @@
+name: Content Quality Assurance
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  content-validation:
+    name: Content Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: |
+        npm install -g markdownlint-cli2
+        npm install -g markdown-link-check
+        npm install -g textlint
+        npm install -g alex
+        
+    - name: Markdown Linting
+      run: |
+        echo "🔍 Running Markdown Linting..."
+        markdownlint-cli2 "**/*.md" "#node_modules" "#.git"
+        
+    - name: Link Validation
+      run: |
+        echo "🔗 Checking Markdown Links..."
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
+        xargs -I {} markdown-link-check {} --config .github/workflows/link-check-config.json || true
+        
+    - name: Spell Check
+      run: |
+        echo "📝 Running Spell Check..."
+        # Install aspell for spell checking
+        sudo apt-get update
+        sudo apt-get install -y aspell aspell-en
+        
+        # Simple spell check on markdown files (skip code blocks)
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
+        while read file; do
+          echo "Checking spelling in: $file"
+          # Extract text content, skip code blocks and check spelling
+          sed '/```/,/```/d' "$file" | aspell list --lang=en | sort -u | head -10 || true
+        done
+        
+    - name: Content Structure Validation
+      run: |
+        echo "📋 Validating Content Structure..."
+        
+        # Check for required files
+        required_files=("README.md" "LICENSE" "CODE_OF_CONDUCT.md")
+        for file in "${required_files[@]}"; do
+          if [ -f "$file" ]; then
+            echo "✅ Found: $file"
+          else
+            echo "❌ Missing: $file"
+            exit 1
+          fi
+        done
+        
+        # Check for proper heading structure in markdown files
+        echo "🏗️ Checking heading structure..."
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
+        while read file; do
+          echo "Checking headings in: $file"
+          # Check if file starts with h1 heading
+          if head -n 5 "$file" | grep -q "^# "; then
+            echo "✅ $file has proper h1 heading"
+          else
+            echo "⚠️ $file may be missing h1 heading"
+          fi
+        done
+        
+    - name: Training Content Validation
+      run: |
+        echo "🎓 Validating Training Content Standards..."
+        
+        # Check for educational markers
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
+        while read file; do
+          echo "Validating training content in: $file"
+          
+          # Look for learning objectives, examples, exercises
+          if grep -q -i "learning\|objective\|example\|exercise\|practice\|tutorial" "$file"; then
+            echo "✅ $file contains educational content markers"
+          else
+            echo "ℹ️ $file may not contain explicit learning markers"
+          fi
+        done
+        
+    - name: Security Scan
+      run: |
+        echo "🔒 Running Basic Security Scan..."
+        
+        # Check for potential security issues in content
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
+        while read file; do
+          # Check for exposed secrets patterns (basic check)
+          if grep -i -E "(password|secret|key|token).*[:=].*[a-zA-Z0-9]{10,}" "$file"; then
+            echo "⚠️ Potential secret found in: $file"
+          fi
+          
+          # Check for suspicious URLs
+          if grep -E "http://[^/]*\.(tk|ml|ga|cf)" "$file"; then
+            echo "⚠️ Suspicious URL found in: $file"
+          fi
+        done
+        
+        echo "✅ Security scan completed"
+        
+    - name: Generate Content Report
+      if: always()
+      run: |
+        echo "📊 Generating Content Report..."
+        
+        echo "## 📋 Repository Content Summary" > content-report.md
+        echo "" >> content-report.md
+        
+        echo "### 📁 File Count" >> content-report.md
+        echo "- Markdown files: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | wc -l)" >> content-report.md
+        echo "- Total files: $(find . -type f -not -path "./node_modules/*" -not -path "./.git/*" | wc -l)" >> content-report.md
+        echo "" >> content-report.md
+        
+        echo "### 📝 Content Analysis" >> content-report.md
+        echo "- Total word count: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec wc -w {} + | tail -n 1 | awk '{print $1}')" >> content-report.md
+        echo "- Average file size: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec wc -c {} + | tail -n 1 | awk '{print int($1/NR) " bytes"}')" >> content-report.md
+        echo "" >> content-report.md
+        
+        echo "### 🎓 Training Content Features" >> content-report.md
+        echo "- Files with learning objectives: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec grep -l -i "learning\|objective" {} \; | wc -l)" >> content-report.md
+        echo "- Files with examples: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec grep -l -i "example" {} \; | wc -l)" >> content-report.md
+        echo "- Files with exercises: $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -exec grep -l -i "exercise\|practice" {} \; | wc -l)" >> content-report.md
+        
+        cat content-report.md
+        
+    - name: Upload Content Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: content-quality-report
+        path: content-report.md
+        retention-days: 30
