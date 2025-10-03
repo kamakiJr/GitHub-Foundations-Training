@@ -47,32 +47,38 @@ jobs:
         sudo apt-get install -y aspell aspell-en
         
         # Simple spell check on markdown files (skip code blocks)
-        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
-        while read file; do
+        while IFS= read -r -d '' file; do
           echo "Checking spelling in: $file"
           # Extract text content, skip code blocks and check spelling
           sed '/```/,/```/d' "$file" | aspell list --lang=en | sort -u | head -10 || true
-        done
+        done < <(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -print0)
+        
+        echo "✅ Spell check completed"
         
     - name: Content Structure Validation
       run: |
         echo "📋 Validating Content Structure..."
         
         # Check for required files
+        missing_files=0
         required_files=("README.md" "LICENSE" "CODE_OF_CONDUCT.md")
         for file in "${required_files[@]}"; do
           if [ -f "$file" ]; then
             echo "✅ Found: $file"
           else
             echo "❌ Missing: $file"
-            exit 1
+            missing_files=$((missing_files + 1))
           fi
         done
         
+        if [ $missing_files -gt 0 ]; then
+          echo "❌ $missing_files required file(s) missing"
+          exit 1
+        fi
+        
         # Check for proper heading structure in markdown files
         echo "🏗️ Checking heading structure..."
-        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
-        while read file; do
+        while IFS= read -r -d '' file; do
           echo "Checking headings in: $file"
           # Check if file starts with h1 heading
           if head -n 5 "$file" | grep -q "^# "; then
@@ -80,15 +86,16 @@ jobs:
           else
             echo "⚠️ $file may be missing h1 heading"
           fi
-        done
+        done < <(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -print0)
+        
+        echo "✅ Content structure validation completed"
         
     - name: Training Content Validation
       run: |
         echo "🎓 Validating Training Content Standards..."
         
         # Check for educational markers
-        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
-        while read file; do
+        while IFS= read -r -d '' file; do
           echo "Validating training content in: $file"
           
           # Look for learning objectives, examples, exercises
@@ -97,15 +104,16 @@ jobs:
           else
             echo "ℹ️ $file may not contain explicit learning markers"
           fi
-        done
+        done < <(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -print0)
+        
+        echo "✅ Training content validation completed"
         
     - name: Security Scan
       run: |
         echo "🔒 Running Basic Security Scan..."
         
         # Check for potential security issues in content
-        find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | \
-        while read file; do
+        while IFS= read -r -d '' file; do
           # Check for exposed secrets patterns (basic check)
           if grep -i -E "(password|secret|key|token).*[:=].*[a-zA-Z0-9]{10,}" "$file"; then
             echo "⚠️ Potential secret found in: $file"
@@ -115,7 +123,7 @@ jobs:
           if grep -E "http://[^/]*\.(tk|ml|ga|cf)" "$file"; then
             echo "⚠️ Suspicious URL found in: $file"
           fi
-        done
+        done < <(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -print0)
         
         echo "✅ Security scan completed"
         
