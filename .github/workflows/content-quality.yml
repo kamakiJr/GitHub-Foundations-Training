@@ -31,7 +31,7 @@ jobs:
     - name: Markdown Linting
       run: |
         echo "🔍 Running Markdown Linting..."
-        markdownlint-cli2 "**/*.md" "#node_modules" "#.git"
+        markdownlint-cli2 "**/*.md" "#node_modules" "#.git" "#.github/pull_request_template.md"
         
     - name: Link Validation
       run: |
