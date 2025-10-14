@@ -4,6 +4,7 @@ This document contains a curated set of links for studying GitHub Foundations.
 Links are verified and updated as needed.
 
 ## Requirements
+
 - [GitHub Foundations Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)
 
 ### Exam Content
@@ -80,11 +81,13 @@ Links are verified and updated as needed.
   - Contribute to community projects
 
 ## Main Training Path
+
 - [GitHub Foundations Training - Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/github-foundations/)
 
 ## Study Domains
 
 ### Domain 1: Introduction to Git and GitHub
+
 [What is Version Control](https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc)
 
 [Basic Git Commands](https://learn.microsoft.com/en-us/training/modules/intro-to-git/3-basic-git-commands)
@@ -102,9 +105,21 @@ Links are verified and updated as needed.
 [Communicate with Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/3-communicating-using-markdown)
 
 ### Domain 2: Working with GitHub Repositories
+
+[Maintaining Repository Changes with Pull Requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/)
+
+[Pull Requests - Introduction](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/1-introduction)
+
+[What are Pull Requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/2-what-are-pull-requests)
+
+[Exercise - Reviewing Pull Requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/3-review-pull-requests)
+
+[GitHub Docs - Propose Changes with Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
+
 *Add study resources for repository management here.*
 
 ### Domain 3: Collaboration Features
+
 [Contribute to an open-source Project](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/)
 
 [Identify Where You Can Help](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/2-identify)
@@ -118,9 +133,11 @@ Links are verified and updated as needed.
 ***- Needs Project Management Tasks Here***
 
 ### Domain 4: Modern Development
+
 [Understanding GitHub Actions](https://docs.github.com/en/actions/get-started/understand-github-actions)
 
 ### Domain 5: Project Management
+
 [Projects versus Projects Classic](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/2-project-vs-project-classic)
 
 [How to create a project](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/3-how-to-create-project)
@@ -130,6 +147,7 @@ Links are verified and updated as needed.
 [Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
 
 ### Domain 6: Privacy, Security, and Administration
+
 [What is Code Scanning](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/2-what-code-scanning)
 
 [Enable code scanning with third party tools](https://learn.microsoft.com/en-us/training/modules/configure-code-scanning/3-enable-code-scanning-with-third-party-tools)
@@ -140,6 +158,8 @@ Links are verified and updated as needed.
 
 [Automated security](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/3-security-automation)
 
+[GitHub Administration - Intro](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/1-introduction)
+
 [What is GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration)
 
 [How does GitHub authentication work?](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works)
@@ -148,10 +168,14 @@ Links are verified and updated as needed.
 
 [Managing enterprise access, permissions, and governance](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/5-enterprise-access-governance)
 
+[GitHub Administration Summary](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/6-summary)
+
 ### Domain 7: Benefits of the GitHub Community
+
 *Add study resources for community features and benefits here.*
 
 ## Additional Resources
+
 *Add more links here as you discover useful resources.*
 [GH Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 
