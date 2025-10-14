@@ -4,6 +4,13 @@ This document contains links to practice tests and exam preparation resources fo
 
 ## Practice Test Providers
 
+### GH Certified
+
+- **GitHub Practice Tests**: [GitHub Foundations Practice Tests](https://ghcertified.com/practice_tests/)
+- **Provider**: GH Certified
+- **Type**: Online practice tests
+- **Description**: Specialized GitHub certification practice tests with comprehensive coverage of GitHub Foundations topics
+
 ### TheExamsLab
 
 - **GitHub Foundations Practice Test**: [GitHub Foundations Practice Test](https://www.theexamslab.com/online/GitHub-Foundations-practice-test)
