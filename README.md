@@ -37,6 +37,7 @@ The GitHub Foundations certification covers 7 key domains:
 
 - [Official Microsoft Learn Path](https://learn.microsoft.com/en-us/training/paths/github-foundations/)
 - [GitHub Foundations Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)
+- [Study guide for GH-900: GitHub Foundations](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 
 ## Contributing
 
