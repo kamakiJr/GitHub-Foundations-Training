@@ -34,13 +34,13 @@ effectively.
 
 The GitHub Foundations certification covers 7 key domains:
 
-1. **Introduction to Git and GitHub (22%)** - Git basics, workflows, and GitHub navigation
-2. **Working with GitHub Repositories (8%)** - Repository management and file operations
-3. **Collaboration Features (30%)** - Pull requests, issues, and team collaboration
-4. **Modern Development (13%)** - DevOps practices, CI/CD, and code review
-5. **Project Management (7%)** - GitHub Projects and task management
-6. **Privacy, Security, and Administration (10%)** - Security features and organization management
-7. **Benefits of the GitHub Community (10%)** - Open source participation and community engagement
+1. **[Introduction to Git and GitHub](github-foundations-training.md#domain-1-introduction-to-git-and-github) (22%)** - Git basics, workflows, and GitHub navigation
+2. **[Working with GitHub Repositories](github-foundations-training.md#domain-2-working-with-github-repositories) (8%)** - Repository management and file operations
+3. **[Collaboration Features](github-foundations-training.md#domain-3-collaboration-features) (30%)** - Pull requests, issues, and team collaboration
+4. **[Modern Development](github-foundations-training.md#domain-4-modern-development) (13%)** - DevOps practices, CI/CD, and code review
+5. **[Project Management](github-foundations-training.md#domain-5-project-management) (7%)** - GitHub Projects and task management
+6. **[Privacy, Security, and Administration](github-foundations-training.md#domain-6-privacy-security-and-administration) (10%)** - Security features and organization management
+7. **[Benefits of the GitHub Community](github-foundations-training.md#domain-7-benefits-of-the-github-community) (10%)** - Open source participation and community engagement
 
 ## Getting Started
 
