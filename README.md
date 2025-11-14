@@ -5,28 +5,25 @@
 A comprehensive, community-driven study guide and training plan for the GitHub Foundations certification exam  
 (GH-900). Used by hundreds of certification candidates worldwide.
 
-[![GitHub stars](https://img.shields.io/github/stars/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/stargazers)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/network/members)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 ## 🎯 Why This Repository?
 
 - ✅ **Complete exam coverage** - All 7 certification domains with exact weightings
-- ✅ **Practice tests included** - Real exam-style questions to test your knowledge  
 - ✅ **Curated resources** - Hand-picked, verified study materials from the community
+- ✅ **Practice tests included** - Real exam-style questions to test your knowledge
 - ✅ **Regular updates** - Kept current with latest GitHub features and exam changes
 - ✅ **Community-driven** - Contributions from certified professionals and students
 
 ## Overview
 
-This repository contains curated study materials, practice resources, and training links for preparing for the  
-GitHub Foundations certification. The content is organized by exam domains to help you focus your study efforts  
-effectively.
+This repository contains curated study materials, practice resources, and training links for preparing for the GitHub Foundations certification. The content is organized by exam domains to help you focus your study efforts effectively.
 
 ## Contents
 
-- **[GitHub Foundations Training Plan](github-foundations-training.md)** - Main study guide with detailed exam  
-  content breakdown and training resources
+- **[GitHub Foundations Training Roadmap](roadmap-github-foundations-training.md)** - Main study guide with detailed exam content breakdown and training resources
 - **Exam Domain Coverage** - All 7 certification domains with specific learning objectives
 - **Curated Links** - Verified training resources and documentation
 
@@ -34,20 +31,18 @@ effectively.
 
 The GitHub Foundations certification covers 7 key domains:
 
-1. **Introduction to Git and GitHub (22%)** - Git basics, workflows, and GitHub navigation
-2. **Working with GitHub Repositories (8%)** - Repository management and file operations
-3. **Collaboration Features (30%)** - Pull requests, issues, and team collaboration
-4. **Modern Development (13%)** - DevOps practices, CI/CD, and code review
-5. **Project Management (7%)** - GitHub Projects and task management
-6. **Privacy, Security, and Administration (10%)** - Security features and organization management
-7. **Benefits of the GitHub Community (10%)** - Open source participation and community engagement
+1. **[Introduction to Git and GitHub](roadmap-github-foundations-training.md#domain-1-introduction-to-git-and-github) (22%)** - Git basics, workflows, and GitHub navigation
+2. **[Working with GitHub Repositories](roadmap-github-foundations-training.md#domain-2-working-with-github-repositories) (8%)** - Repository management and file operations
+3. **[Collaboration Features](roadmap-github-foundations-training.md#domain-3-collaboration-features) (30%)** - Pull requests, issues, and team collaboration
+4. **[Modern Development](roadmap-github-foundations-training.md#domain-4-modern-development) (13%)** - DevOps practices, CI/CD, and code review
+5. **[Project Management](roadmap-github-foundations-training.md#domain-5-project-management) (7%)** - GitHub Projects and task management
+6. **[Privacy, Security, and Administration](roadmap-github-foundations-training.md#domain-6-privacy-security-and-administration) (10%)** - Security features and organization management
+7. **[Benefits of the GitHub Community](roadmap-github-foundations-training.md#domain-7-benefits-of-the-github-community) (10%)** - Open source participation and community engagement
 
-## Getting Started
+## Exam Practice Sites
 
-1. Review the [main training plan](github-foundations-training.md)
-2. Study each domain based on its exam weighting
-3. Follow the provided Microsoft Learn path
-4. Practice with the certification practice assessment
+- [GH Certified](https://ghcertified.com/practice_tests/)
+- [TheExamsLab](https://www.theexamslab.com/online/GitHub-Foundations-practice-test)
 
 ## Resources
 
