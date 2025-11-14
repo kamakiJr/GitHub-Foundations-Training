@@ -24,6 +24,4 @@ This document contains links to practice tests and exam preparation resources fo
 
 ---
 
-**Note**: These are external resources and not officially endorsed by GitHub. Use these practice tests to  
-supplement your study but always refer to the official GitHub documentation and certification guide for  
-authoritative information.
+**Note**: These are external resources and not officially endorsed by GitHub. Use these practice tests to supplement your study but always refer to the official GitHub documentation and certification guide for authoritative information.

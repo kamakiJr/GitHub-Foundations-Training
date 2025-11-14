@@ -39,7 +39,7 @@ We welcome contributions in the following areas:
 ├── scripts/                 # Utility scripts
 ├── additional-resources.md  # Study materials and resources
 ├── practice-tests.md        # Practice test providers
-├── github-foundations-training.md  # Main training content
+├── roadmap-github-foundations-training.md  # Main training content
 └── README.md               # Project overview
 ```
 
