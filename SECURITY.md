@@ -4,8 +4,8 @@
 
 If you discover a security vulnerability in this repository, please report it by:
 
-1. **Email**: Create an issue with the label `security` (do not include sensitive details publicly)
-2. **GitHub Security Advisory**: Use the "Report a vulnerability" button in the Security tab
+1. **GitHub Issue**: Create an issue with the label `security` (do not include sensitive details publicly)
+2. **Public Issue**: For non-sensitive concerns (e.g., broken links, outdated information), create an issue with the label `security`. Do not include any sensitive details publicly.
 
 We will respond to security reports within 48 hours.
 
