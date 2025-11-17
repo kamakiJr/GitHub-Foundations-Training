@@ -185,6 +185,14 @@ Links are verified and updated as needed.
 - [InnerSource Introduction](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/1-introduction)
 - [How to manage a successful InnerSource program](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/2-manage-innersource-program)
 - [Exercise - InnerSource Fundamentals](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/3-innersource-fundamentals)
+- [Search and Organize Repository History Introduction](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/1-introduction)
+- [How to search and organize repository history by using GitHub](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/2-search-organize-repository-history-github)
+- [Exercise - Connect the dots in a GitHub repository](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots)
+- [Classifying your repository with topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
+- [Building communities documentation](https://docs.github.com/en/communities)
+- [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+- [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+
 
 **Mind map**
 - [Domain 7 Mind Map](assets/Domain7-mind-map.jpeg)
