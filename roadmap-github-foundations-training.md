@@ -145,13 +145,57 @@ Links are verified and updated as needed.
 ---
 
 **Exam Objectives:**
-- Engage with the GitHub community
-  - Participate in open source projects
-  - Use GitHub Discussions
-  - Contribute to community projects
+- Open Source Benefits
+  - Encourages collaboration, innovation, and transparency.
+  - Anyone can view, use, modify, and contribute to projects.
+- GitHub Sponsors
+  - Allows individuals/organizations to financially support developers.
+  - Supports sustainability for open source contributors.
+- Advancing Open Source
+  - Security tools (Dependabot, secret scanning).
+  - Collaboration features (Issues, Pull Requests).
+  - Community guidelines.
+- Following People & Orgs
+  - Click Follow on profiles/orgs to:
+    - Get updates on their activity.
+    - Discover new projects.
+- GitHub Marketplace
+  - A hub for apps and actions to extend GitHub functionality.
+  - Examples: CI/CD tools, code quality analyzers.
+- Applying Open Source Benefits
+  - Use open source libraries to accelerate development.
+  - Contribute to projects for skill growth and visibility.
+- InnerSource
+  - Applying open source principles inside an organization.
+  - Key difference: code is private to the company, not public.
+- Forking
+  - Creates a copy of a repo under your account.
+  - Used to propose changes without affecting the original repo.
+- Discoverable Repository
+  - Include:
+    - README.md (project overview).
+    - Topics (tags for searchability).
+    - License (usage rights).
+- Issue & PR Templates
+  - Standardize contributions.
+  - Improve clarity and reduce repetitive questions.
 
 **Study Resources:**
-*Add study resources for community features and benefits here.*
+
+- [InnerSource Introduction](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/1-introduction)
+- [How to manage a successful InnerSource program](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/2-manage-innersource-program)
+- [Exercise - InnerSource Fundamentals](https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/3-innersource-fundamentals)
+- [Search and Organize Repository History Introduction](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/1-introduction)
+- [How to search and organize repository history by using GitHub](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/2-search-organize-repository-history-github)
+- [Exercise - Connect the dots in a GitHub repository](https://learn.microsoft.com/en-us/training/modules/search-organize-repository-history-github/3-connect-dots)
+- [Classifying your repository with topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
+- [Building communities documentation](https://docs.github.com/en/communities)
+- [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+- [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+
+
+**Mind map**
+- [Domain 7 Mind Map](assets/Domain7-mind-map.jpeg)
 
 ---
 
