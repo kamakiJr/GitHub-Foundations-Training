@@ -37,6 +37,9 @@ Links are verified and updated as needed.
 - [What is Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown)
 - [Communicate with Markdown](https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/3-communicating-using-markdown)
 
+**Mind map**
+- [Domain 1 Mind Map](assets/Domain1-mind-map.jpg)
+
 ### Domain 2: Working with GitHub Repositories (8%)
 
 ---
@@ -57,6 +60,9 @@ Links are verified and updated as needed.
 - [What are Pull Requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/2-what-are-pull-requests)
 - [Exercise - Reviewing Pull Requests](https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/3-review-pull-requests)
 - [GitHub Docs - Propose Changes with Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
+
+**Mind map**
+- [Domain 2 Mind Map](assets/Domain2-mind-map.jpg)
 
 ### Domain 3: Collaboration Features (30%)
 
@@ -80,6 +86,9 @@ Links are verified and updated as needed.
 - [Exercise - Create your first pull request](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr)
 - [Next steps](https://learn.microsoft.com/en-us/training/modules/contribute-open-source/5-next-steps)
 
+**Mind map**
+- [Domain 3 Mind Map](assets/Domain3-mind-map.jpg)
+
 ### Domain 4: Modern Development (13%)
 
 ---
@@ -97,6 +106,9 @@ Links are verified and updated as needed.
 **Study Resources:**
 - [Understanding GitHub Actions](https://docs.github.com/en/actions/get-started/understand-github-actions)
 
+**Mind map**
+- [Domain 4 Mind Map](assets/Domain4-mind-map.jpg)
+
 ### Domain 5: Project Management (7%)
 
 ---
@@ -112,6 +124,9 @@ Links are verified and updated as needed.
 - [How to create a project](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/3-how-to-create-project)
 - [How to organize and automate your project](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/5-how-to-organize-automate-project)
 - [Insight and automation with projects](https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/6-insight-automation-with-projects)
+
+**Mind map**
+- [Domain 5 Mind Map](assets/Domain5-mind-map.jpg)
 
 ### Domain 6: Privacy, Security, and Administration (10%)
 
@@ -139,6 +154,9 @@ Links are verified and updated as needed.
 - [How does GitHub organization and permissions work?](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/4-how-github-organization-permission-works)
 - [Managing enterprise access, permissions, and governance](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/5-enterprise-access-governance)
 - [GitHub Administration Summary](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/6-summary)
+
+**Mind map**
+- [Domain 6 Mind Map](assets/Domain6-mind-map.jpg)
 
 ### Domain 7: Benefits of the GitHub Community (10%)
 
@@ -195,7 +213,7 @@ Links are verified and updated as needed.
 
 
 **Mind map**
-- [Domain 7 Mind Map](assets/Domain7-mind-map.jpeg)
+- [Domain 7 Mind Map](assets/Domain7-mind-map.jpg)
 
 ---
 
