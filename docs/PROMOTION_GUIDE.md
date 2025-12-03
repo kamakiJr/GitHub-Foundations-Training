@@ -5,6 +5,7 @@
 ### Twitter/X Post Templates
 
 **Template 1:**
+
 ```
 🎓 Studying for GitHub Foundations (GH-900) certification?
 
@@ -20,6 +21,7 @@ Check it out: https://github.com/kamakiJr/GitHub-Foundations-Training
 ```
 
 **Template 2:**
+
 ```
 💡 Just passed my GitHub Foundations exam!
 
@@ -32,6 +34,7 @@ Complete coverage, practice tests, and a supportive community. Highly recommend!
 ```
 
 **Template 3:**
+
 ```
 🚀 Want to level up your GitHub skills?
 
@@ -175,6 +178,7 @@ Tags: #github #certification #devops #learning #career
 ## Where to Share
 
 ### Immediate (Week 1)
+
 - [ ] Post on LinkedIn (your network)
 - [ ] Share on Twitter/X with hashtags
 - [ ] Post in r/github, r/devops
@@ -182,6 +186,7 @@ Tags: #github #certification #devops #learning #career
 - [ ] Post on Dev.to or Hashnode
 
 ### Ongoing
+
 - [ ] Share in GitHub Discussions communities
 - [ ] Post in relevant Slack communities  
 - [ ] Share on Hacker News (Show HN)
@@ -191,6 +196,7 @@ Tags: #github #certification #devops #learning #career
 ## GitHub-Specific Actions
 
 ### Enable Discussions
+
 ```bash
 # In repository settings, enable Discussions
 # Create starter topics:
@@ -201,11 +207,13 @@ Tags: #github #certification #devops #learning #career
 ```
 
 ### Create Issues for Engagement
+
 - "Share your success story"
 - "Suggest additional resources"
 - "Request new practice questions"
 
 ### Pin Important Issues
+
 Pin 2-3 issues that encourage engagement
 
 ## Weekly Content Calendar

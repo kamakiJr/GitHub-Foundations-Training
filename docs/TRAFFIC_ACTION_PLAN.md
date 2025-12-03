@@ -207,6 +207,7 @@ You have excellent content but low visibility. Here's your complete action plan 
 Track these weekly:
 
 ### GitHub Metrics
+
 - **Stars:** Goal 100 in 3 months
 - **Forks:** Goal 25 in 3 months
 - **Traffic (views):** Goal 1,000+/week
@@ -214,11 +215,13 @@ Track these weekly:
 - **Contributors:** Goal 5+ in 3 months
 
 ### Community Metrics
+
 - **GitHub Discussions:** Goal 20+ active threads
 - **Issues opened:** Goal 10+ (questions, suggestions)
 - **Success stories:** Goal 5+ testimonials
 
 ### External Metrics
+
 - **Website visits:** Goal 500+/week
 - **Social media reach:** Goal 5,000+ impressions
 - **Article views:** Goal 1,000+ total
@@ -251,24 +254,28 @@ These take 5 minutes each and have high impact:
 **Goal:** 50 stars and 500 unique visitors in 30 days
 
 ### Week 1
+
 - Enable Pages & Discussions
 - Social media announcement (all platforms)
 - Reddit posts (3 subreddits)
 - **Target:** 10 stars
 
-### Week 2  
+### Week 2
+
 - YouTube comment strategy
 - Stack Overflow answers
 - Dev.to article published
 - **Target:** 25 stars
 
 ### Week 3
+
 - Reach out to educators
 - Create video content
 - Weekly tips series
 - **Target:** 40 stars
 
 ### Week 4
+
 - Hacker News Show HN
 - Media outreach
 - Analyze & optimize
