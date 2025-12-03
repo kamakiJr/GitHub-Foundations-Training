@@ -5,9 +5,24 @@
 A comprehensive, community-driven study guide and training plan for the GitHub Foundations certification exam  
 (GH-900). Used by hundreds of certification candidates worldwide.
 
-<!-- [![GitHub stars](https://img.shields.io/github/stars/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kamakiJr/GitHub-Foundations-Training?style=social)](https://github.com/kamakiJr/GitHub-Foundations-Training/network/members)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kamakiJr/GitHub-Foundations-Training)](https://github.com/kamakiJr/GitHub-Foundations-Training/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/kamakiJr/GitHub-Foundations-Training)](https://github.com/kamakiJr/GitHub-Foundations-Training/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+## 📋 Table of Contents
+
+- [Why This Repository?](#-why-this-repository)
+- [Quick Start](#-quick-start)
+- [Contents](#-contents)
+- [Exam Domains](#exam-domains)
+- [Study Plans](#-study-plans)
+- [Exam Practice Sites](#exam-practice-sites)
+- [Success Stories](#-success-stories)
+- [Contributing](#contributing)
+- [Community & Support](#-connect--support)
 
 ## 🎯 Why This Repository?
 
@@ -16,14 +31,27 @@ A comprehensive, community-driven study guide and training plan for the GitHub F
 - ✅ **Practice tests included** - Real exam-style questions to test your knowledge
 - ✅ **Regular updates** - Kept current with latest GitHub features and exam changes
 - ✅ **Community-driven** - Contributions from certified professionals and students
+- ✅ **100% Free** - No paywalls, no hidden costs, forever
 
 ## Overview
 
 This repository contains curated study materials, practice resources, and training links for preparing for the GitHub Foundations certification. The content is organized by exam domains to help you focus your study efforts effectively.
 
-## Contents
+**Perfect for:** Developers, DevOps engineers, project managers, students, and anyone wanting to validate their GitHub skills.
+
+## 🚀 Quick Start
+
+1. **[Start with the Roadmap](roadmap-github-foundations-training.md)** - Week-by-week study plan
+2. **[Browse All Resources](AWESOME_RESOURCES.md)** - Curated courses, videos, and tools
+3. **[Take Practice Tests](practice-tests.md)** - Test your knowledge
+4. **[Join Discussions](https://github.com/kamakiJr/GitHub-Foundations-Training/discussions)** - Ask questions and share tips
+
+## 📚 Contents
 
 - **[GitHub Foundations Training Roadmap](roadmap-github-foundations-training.md)** - Main study guide with detailed exam content breakdown and training resources
+- **[Awesome Resources](AWESOME_RESOURCES.md)** - Comprehensive list of courses, videos, books, and tools
+- **[Practice Tests](practice-tests.md)** - Exam-style questions to test your knowledge
+- **[Additional Resources](additional-resources.md)** - Extra study materials
 - **Exam Domain Coverage** - All 7 certification domains with specific learning objectives
 - **Curated Links** - Verified training resources and documentation
 
@@ -39,6 +67,36 @@ The GitHub Foundations certification covers 7 key domains:
 6. **[Privacy, Security, and Administration](roadmap-github-foundations-training.md#domain-6-privacy-security-and-administration-10) (10%)** - Security features and organization management
 7. **[Benefits of the GitHub Community](roadmap-github-foundations-training.md#domain-7-benefits-of-the-github-community-10) (10%)** - Open source participation and community engagement
 
+## 📅 Study Plans
+
+Choose the study plan that fits your schedule:
+
+### 2-Week Intensive (10-15 hrs/week)
+
+Perfect if you're already familiar with Git and need focused preparation.
+
+**Week 1:** Domains 1-4 + practice tests  
+**Week 2:** Domains 5-7 + review + mock exam
+
+[See detailed 2-week plan →](AWESOME_RESOURCES.md#2-week-intensive-plan)
+
+### 4-Week Standard (5-7 hrs/week)
+
+Recommended for most candidates with some GitHub experience.
+
+**Weeks 1-3:** Study all domains systematically  
+**Week 4:** Review + practice tests + exam
+
+[See detailed 4-week plan →](AWESOME_RESOURCES.md#4-week-standard-plan)
+
+### 8-Week Relaxed (3-5 hrs/week)
+
+Ideal for beginners or those balancing other commitments.
+
+**Weeks 1-7:** One domain per week with hands-on practice  
+**Week 8:** Full review + practice tests
+
+[See detailed 8-week plan →](AWESOME_RESOURCES.md#8-week-relaxed-plan)
 
 ## Exam Practice Sites
 

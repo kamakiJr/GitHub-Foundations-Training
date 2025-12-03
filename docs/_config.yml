@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: GitHub Foundations Certification Study Guide
+description: Free, comprehensive study guide for GitHub Foundations (GH-900) certification exam
+show_downloads: true
+github:
+  repository_url: https://github.com/kamakiJr/GitHub-Foundations-Training
+  is_project_page: true
