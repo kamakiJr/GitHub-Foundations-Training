@@ -19,6 +19,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
+## [1.2.0] - 2025-12-03
+
+### Added
+
+- Comprehensive promotion and marketing guide (`docs/PROMOTION_GUIDE.md`)
+- Traffic growth action plan with step-by-step strategies (`docs/TRAFFIC_ACTION_PLAN.md`)
+- Pre-written social media post templates for Twitter/X, LinkedIn, Reddit, and Facebook
+- Community engagement strategies and best practices
+- GitHub Pages website configuration documentation
+- Success story and resource suggestion issue templates
+- Curated awesome resources document (`AWESOME_RESOURCES.md`)
+- Study plans and learning paths in README
+
+### Fixed
+
+- Markdown formatting in promotion and traffic action plan guides
+
 ## [1.1.0] - 2025-10-02
 
 ### Added
@@ -56,6 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Basic repository structure
 - Training documentation in `github-foundations-training.md`
 
-[Unreleased]: https://github.com/kamakiJr/GitHub-Foundations-Training/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/kamakiJr/GitHub-Foundations-Training/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/kamakiJr/GitHub-Foundations-Training/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/kamakiJr/GitHub-Foundations-Training/releases/tag/v1.1.0
 [1.0.0]: https://github.com/kamakiJr/GitHub-Foundations-Training/releases/tag/v1.0.0
